@@ -1,16 +1,8 @@
 function version(version, tags, picotron_build, installer)
     return {
-        id="kutup_template_os",
-        name = "TemplateOS", -- string
-        description = "A template OS for your system", -- [string]
         tags = tags, -- [ string[] ] |> Optional tags for installer
         version = version, -- version string |> This is a required string
         picotron_build = picotron_build, -- version string
-        author = { -- [string, {name, github, youtube, discord, mastodon, discord}]
-            name = "KutupTilkisi",
-            github = "https://github.com/TunayAdaKaracan",
-            discord = "@kutuptilkisi.dev"
-        },
         entrypoint = "sysboot.lua", -- [string] |> Overrides default entrypoint. "boot.lua" is not a valid entrypoint.,
 
         -- URI |> If the file is a lua file, it downloads and runs the script. If the file is a json file
@@ -28,6 +20,17 @@ function version(version, tags, picotron_build, installer)
 end
 
 -- Return Versions
+
 return {
-    version("1.0.0", {"Alpha"}, "=7", "https://kutuptilkisi.b-cdn.net/template-os/installer.easy.json"),
+	id="kutup_template_os",
+	name = "TemplateOS", -- string
+	description = "A template OS for your system", -- [string]
+	author = { -- [string, {name, github, youtube, discord, mastodon, discord}]
+		name = "KutupTilkisi",
+		github = "https://github.com/TunayAdaKaracan",
+		discord = "@kutuptilkisi.dev"
+	},
+	versions = {
+		version("1.0.0", {"Alpha"}, "=7", "https://kutuptilkisi.b-cdn.net/template-os/installer.easy.json"),
+	}
 }
