@@ -29,5 +29,5 @@ end
 
 -- Return Versions
 return {
-    version("1.0.0", ["Alpha"], "=7", "https://kutuptilkisi.b-cdn.net/template-os/installer.easy.json"),
+    version("1.0.0", {"Alpha"}, "=7", "https://kutuptilkisi.b-cdn.net/template-os/installer.easy.json"),
 }
