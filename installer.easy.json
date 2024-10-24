@@ -1,0 +1,13 @@
+{
+    "$url": "https://kutuptilkisi.b-cdn.net/template-os",
+    "files": ["installer.easy.json", "osinfo.json.lua", "sysboot.lua"],
+    "fonts": {
+        "files": ["lil.font", "lil_mono.font", "p8.font"]
+    },
+    "managers": {
+        "files": ["pm.lua", "wm.lua"]
+    },
+    "syslib": {
+        "files": ["core.lua", "events.lua", "loop.lua", "screen.lua"]
+    }
+}
