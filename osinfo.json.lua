@@ -31,6 +31,6 @@ return {
 		discord = "@kutuptilkisi.dev"
 	},
 	versions = {
-		version("1.0.0", {"Alpha"}, "=7", "https://kutuptilkisi.b-cdn.net/template-os/installer.easy.json"),
+		version("1.0.0", {"Alpha"}, "=7", "https://raw.githubusercontent.com/TunayAdaKaracan/template-os-picotron/refs/heads/main/installer.easy.json"),
 	}
 }
