@@ -1,5 +1,5 @@
 {
-    "$url": "https://kutuptilkisi.b-cdn.net/template-os",
+    "$url": "https://raw.githubusercontent.com/TunayAdaKaracan/template-os-picotron/refs/heads/main/",
     "files": ["installer.easy.json", "osinfo.json.lua", "sysboot.lua"],
     "fonts": {
         "files": ["lil.font", "lil_mono.font", "p8.font"]
